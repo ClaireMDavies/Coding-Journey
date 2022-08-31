@@ -1,6 +1,6 @@
 :root{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: rgb(252, 182, 32);
+    background-color: rgb(24, 71, 5);
     background-image: url("images/pexels-cottonbro-5473951.jpg");
     background-size: cover;
 }
@@ -22,6 +22,8 @@ nav{
     opacity:75%;
     color:black;
     font-size:larger;
+    padding:5px;
+    margin-bottom: 5px;
 }
 
 header ul li{
@@ -57,29 +59,36 @@ header li a:active{
 }
 
 article{
-    padding: 10px;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 
 }
 .card{
-    background-color: rgb(201, 238, 187);
+    background-color: rgb(227, 250, 218);
     border-radius: 5px;
-    text-align:left;
+    text-align:justify;
     width:fit-content;
     padding: 20px;
     opacity:80%;
     margin: 20px;
-    
+    order:0;
+    flex:400px;;
 }
 
 #ucas{
-    margin-left:auto;
-    margin-right:0;
-    background-color: rgb(155, 216, 133);
+    order:2;
+    background-color: rgb(192, 233, 177);
     
 }
 
 #future{
-    margin-left: auto;
-    margin-right:33%;
+    order:4;
     background-color: rgb(114, 173, 92);
+    
+}
+
+#favourites{
+    order:3;
+    background-color: rgb(161, 211, 143);
 }
