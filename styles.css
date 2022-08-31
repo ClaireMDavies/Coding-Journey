@@ -7,6 +7,7 @@
 
 footer{
     background-color:  rgb(241, 186, 117);
+    opacity: 75%;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -18,12 +19,10 @@ footer{
 
 nav{
     background-color: rgb(241, 186, 117);
-    color: rgb(107, 107, 12);
+    opacity:75%;
+    color:antiquewhite;
     font-size:larger;
 }
-
-
-
 
 header ul li{
     
@@ -32,13 +31,6 @@ header ul li{
     padding-right: 25px;
     list-style: none;
 }
-
-/*header a {
-    display: block;
-    padding: 8px;
-    display: inline;
-   
-}*/
 
 header li a:link{
     color:white;
@@ -63,13 +55,29 @@ header li a:active{
     text-decoration: none;
 
 }
+
+article{
+    padding: 10px;
+
+}
 .card{
     background-color: bisque;
-    box-shadow: 0 4px 8px 0 rgba(245, 183, 126, 0.2);
     border-radius: 5px;
     text-align:left;
     width:fit-content;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 20px;
+    opacity:80%;
+    margin: 20px;
+    
 }
 
+#ucas{
+    margin-left:auto;
+    margin-right:0;
+    
+}
+
+#future{
+    margin-left: auto;
+    margin-right:33%;
+}
