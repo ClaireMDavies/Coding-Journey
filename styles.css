@@ -1,0 +1,75 @@
+:root{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(252, 182, 32);
+    background-image: url("images/pexels-cottonbro-5473951.jpg");
+    background-size: cover;
+}
+
+footer{
+    background-color:  rgb(241, 186, 117);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color:rgb(107, 107, 12);
+    text-align: center;
+    
+}
+
+nav{
+    background-color: rgb(241, 186, 117);
+    color: rgb(107, 107, 12);
+    font-size:larger;
+}
+
+
+
+
+header ul li{
+    
+    display:inline;
+    text-align: left; 
+    padding-right: 25px;
+    list-style: none;
+}
+
+/*header a {
+    display: block;
+    padding: 8px;
+    display: inline;
+   
+}*/
+
+header li a:link{
+    color:white;
+    text-decoration: none;
+
+}
+
+header li a:visited{
+    color:rgb(107, 107, 12);
+    text-decoration: none;
+
+}
+
+header li a:hover{
+    color: purple;
+    text-decoration: none;
+
+}
+
+header li a:active{
+    color:red;
+    text-decoration: none;
+
+}
+.card{
+    background-color: bisque;
+    box-shadow: 0 4px 8px 0 rgba(245, 183, 126, 0.2);
+    border-radius: 5px;
+    text-align:left;
+    width:fit-content;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
