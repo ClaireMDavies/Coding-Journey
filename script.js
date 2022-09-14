@@ -1,3 +1,6 @@
+window.onload = function() {
+  document.getElementById('countdown-timer').style.display = 'none';
+};
 
 function ApprenticeCountdownTimer(){
     var countDownDate = new Date("Mar 1, 2023 17:00").getTime();
@@ -22,7 +25,7 @@ function ApprenticeCountdownTimer(){
         // If the count down is finished, write some text
         if (distance < 0) {
           clearInterval(x);
-          document.getElementById("countdown-timer").innerHTML = "EXPIRED";
+          document.getElementById("countdown-timer").innerHTML = "Hand your work in!!";
         }
       }, 1000);
 }

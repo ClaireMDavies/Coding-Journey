@@ -113,3 +113,6 @@ article{
     margin-top: 20px;
     color:rgb(152, 241, 117);
 }
+ .hidden{
+    display: none;
+ }
