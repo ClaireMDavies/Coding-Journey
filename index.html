@@ -7,6 +7,7 @@
     <title>My software development journey</title>
     <link rel="shortcut icon" type="image/png" href="images/favicon.png">
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <nav>
@@ -59,7 +60,12 @@
             <p>Javascript is my first real experience of coding, and will always be my point of reference.</p>
             <p>Getting my head around OOP/C# has been tricky</p>
         </div>
+     <div class="card" id="timer">
+        <button onclick="countdownTimerShowHide(); ApprenticeCountdownTimer();" id="timer-button">How long left on the apprenticeship?</button>
+        <p id="countdown-timer"></p> 
+    </div>   
     </article>
+    
     <footer>
         <h6>&#169 Claire Davies 2022</h6>
     </footer>

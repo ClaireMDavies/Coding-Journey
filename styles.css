@@ -92,3 +92,24 @@ article{
     order:3;
     background-color: rgb(161, 211, 143);
 }
+
+#timer{
+    order:5;
+}
+
+#timer-button{
+    padding: 10px;
+    background-color:rgb(24, 71, 5);
+    color:rgb(152, 241, 117);
+    border-radius: 5px;
+}
+
+#countdown-timer {
+   
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: rgb(24, 71, 5);
+    margin-top: 20px;
+    color:rgb(152, 241, 117);
+}
