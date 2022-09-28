@@ -76,19 +76,23 @@ article{
     flex:400px;;
 }
 
-#ucas{
+.container{
+   
+}
+
+#ucas {
     order:2;
     background-color: rgb(192, 233, 177);
     
 }
 
-#future{
+#future {
     order:4;
     background-color: rgb(114, 173, 92);
     
 }
 
-#favourites{
+#favourites {
     order:3;
     background-color: rgb(161, 211, 143);
 }
@@ -113,6 +117,17 @@ article{
     margin-top: 20px;
     color:rgb(152, 241, 117);
 }
+.card-centre{
+    background-color: rgb(227, 250, 218);
+    border-radius: 5px;
+    text-align:center;
+    padding: 20px;
+    opacity:80%;
+    margin: 20px;
+    order:0;
+    flex:400px;;
+}
+
  .hidden{
     display: none;
  }
